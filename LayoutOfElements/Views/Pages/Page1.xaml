@@ -1,0 +1,24 @@
+﻿<Page x:Class="LayoutOfElements.Views.Pages.Page1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LayoutOfElements.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page1">
+
+    <Grid>
+        <StackPanel>
+            <Button Content="1"
+                    Background="#FFA0C1FF" 
+                    Height="144"/>
+            <Button Content="ARGENTINA"
+                    Background="White" 
+                    Height="157"
+                    Click="Button_Click"/>
+            <Button Content="3"
+                    Background="#FFA0C1FF" Height="148"/>
+        </StackPanel>
+    </Grid>
+</Page>
